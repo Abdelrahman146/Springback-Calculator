@@ -8,16 +8,16 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="<?php echo base_url();?>assets/favicon.ico">
 
-    <title><?php echo $title; ?> |Springback in Air bending process</title>
+    <title><?php echo $title; ?> | Springback in Air bending process</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/app.css" rel="stylesheet"> 
-    <script src="assets/ckeditor/ckeditor.js"></script>
+    <link href="<?php echo base_url();?>assets/css/app.css" rel="stylesheet"> 
+    <script src="<?php echo base_url();?>assets/ckeditor/ckeditor.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -44,7 +44,7 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li ><a href="<?php echo base_url().'calculator'; ?>">Calculator</a></li>
+              <li ><a href="<?php echo base_url().'calculator'; ?>">Home</a></li>
               <li ><a href="<?php echo base_url().'about'; ?>">About</a></li>
               <li ><a href="<?php echo base_url().'contact'; ?>">Contact</a></li>
               <li ><a href="<?php echo base_url().'add'; ?>">add new Material</a></li>
